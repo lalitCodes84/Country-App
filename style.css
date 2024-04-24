@@ -1,0 +1,38 @@
+/* Adding font styles to all elements */
+
+*{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+}
+/* Country App Heading Section css */
+h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+/* root div css section starts here */
+#root{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 7vh;
+}
+
+/* Css stylings for the country card and its elements. */
+#card{
+    width: 85%;
+    height: 31vh;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    margin: 3% 2%;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 1% 2%;
+}
